@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/zahrasaied/ontologies/2021/5/untitled-ontology-20"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/zahrasaied/ontologies/2021/5/untitled-ontology-20">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ASAPS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Addressee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aesthetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Affordances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asset_Creation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aurora_NWN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Authoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buildings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Characters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognitive_reduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combinatorics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complexity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embodied_cognition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encyclopedic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environment_building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Existing_authoring_tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expectations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experience_Schema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feedback"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GURPS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geographic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hermeneutic_circle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hypertext_Fiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IDTension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ideation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interaction_Documentary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interaction_Methaphor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interactive_Narrative_Designing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Landscapes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location_Based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meaning_Making"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Memory_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mental_Processes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mixed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Narrative_Cognition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Narrative__Experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-Fiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participatory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physics_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prediction_of_Audience_Reaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preferences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Presentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prior_Narratives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procedural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Props"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protostory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhetoric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rule_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scenejo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Societal_Rules"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spatial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Implementation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Represenation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video_Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AR/VR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UI/Interface_building"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Genre_affects_Content"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Intent_affects_System_Implementation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Interaction_Methaphor_affects_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Interaction_affects_Mental_Processes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Interactive_Narrative_Designing_affects_Presentation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Interactive_Narrative_Designing_affects_Protostory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Meaning_Making_affects_Content"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Mental_Processes_affects_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Presentation_affects_Interactive_Narrative_Designing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Protostory_affects_Interactive_Narrative_Designing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Structure_affects_Motive"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ASAPS"/>
+        <Class IRI="#Existing_authoring_tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Addressee"/>
+        <Class IRI="#Complexity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aesthetic"/>
+        <Class IRI="#Meaning_Making"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Affordances"/>
+        <Class IRI="#Ideation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset_Creation"/>
+        <Class IRI="#Presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audience"/>
+        <Class IRI="#Ideation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audio"/>
+        <Class IRI="#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aurora_NWN"/>
+        <Class IRI="#Existing_authoring_tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buildings"/>
+        <Class IRI="#Geographic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Characters"/>
+        <Class IRI="#Asset_Creation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitive_reduction"/>
+        <Class IRI="#Mental_Processes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combinatorics"/>
+        <Class IRI="#Interactive_Narrative_Designing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complexity"/>
+        <Class IRI="#Content"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content"/>
+        <Class IRI="#Ideation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content"/>
+        <Class IRI="#Protostory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embodied_cognition"/>
+        <Class IRI="#Mental_Processes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encyclopedic"/>
+        <Class IRI="#Affordances"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environment_building"/>
+        <Class IRI="#Presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Events"/>
+        <Class IRI="#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Existing_authoring_tools"/>
+        <Class IRI="#Presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expectations"/>
+        <Class IRI="#Audience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experience_Schema"/>
+        <Class IRI="#Interactive_Narrative_Designing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experience_Schema"/>
+        <Class IRI="#Meaning_Making"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feedback"/>
+        <Class IRI="#Prediction_of_Audience_Reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiction"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Form"/>
+        <Class IRI="#Content"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GURPS"/>
+        <Class IRI="#Existing_authoring_tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geographic"/>
+        <Class IRI="#Environment_building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hermeneutic_circle"/>
+        <Class IRI="#Mental_Processes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypertext_Fiction"/>
+        <Class IRI="#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IDTension"/>
+        <Class IRI="#Existing_authoring_tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ideation"/>
+        <Class IRI="#Authoring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intent"/>
+        <Class IRI="#Ideation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interaction"/>
+        <Class IRI="#Narrative_Cognition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interaction_Documentary"/>
+        <Class IRI="#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interaction_Methaphor"/>
+        <Class IRI="#Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interactive_Narrative_Designing"/>
+        <Class IRI="#System_Implementation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interface"/>
+        <Class IRI="#Meaning_Making"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Landscapes"/>
+        <Class IRI="#Geographic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location_Based"/>
+        <Class IRI="#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Material"/>
+        <Class IRI="#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meaning_Making"/>
+        <Class IRI="#Content"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meaning_Making"/>
+        <Class IRI="#Interactive_Narrative_Designing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Memory_structure"/>
+        <Class IRI="#User_Represenation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mental_Processes"/>
+        <Class IRI="#Narrative_Cognition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mixed"/>
+        <Class IRI="#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motive"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Narrative_Cognition"/>
+        <Class IRI="#Experience_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Narrative__Experience"/>
+        <Class IRI="#Experience_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-Fiction"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participatory"/>
+        <Class IRI="#Affordances"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physics_Systems"/>
+        <Class IRI="#Rule_Systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prediction_of_Audience_Reaction"/>
+        <Class IRI="#Meaning_Making"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preferences"/>
+        <Class IRI="#User_Represenation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Presentation"/>
+        <Class IRI="#System_Implementation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prior_Narratives"/>
+        <Class IRI="#User_Represenation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private"/>
+        <Class IRI="#Addressee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private"/>
+        <Class IRI="#Audience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procedural"/>
+        <Class IRI="#Affordances"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Props"/>
+        <Class IRI="#Asset_Creation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protostory"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protostory"/>
+        <Class IRI="#System_Implementation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhetoric"/>
+        <Class IRI="#Meaning_Making"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rule_Systems"/>
+        <Class IRI="#Environment_building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scenejo"/>
+        <Class IRI="#Existing_authoring_tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social"/>
+        <Class IRI="#Addressee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social"/>
+        <Class IRI="#Audience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Societal_Rules"/>
+        <Class IRI="#Rule_Systems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spatial"/>
+        <Class IRI="#Affordances"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Structure"/>
+        <Class IRI="#Content"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Implementation"/>
+        <Class IRI="#Authoring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theme"/>
+        <Class IRI="#Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topic"/>
+        <Class IRI="#Complexity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Represenation"/>
+        <Class IRI="#Experience_Schema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video_Game"/>
+        <Class IRI="#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AR/VR"/>
+        <Class IRI="#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UI/Interface_building"/>
+        <Class IRI="#Presentation"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Genre_affects_Content"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Intent_affects_System_Implementation"/>
+        <Class IRI="#Intent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Interaction_Methaphor_affects_Interaction"/>
+        <Class IRI="#Interaction_Methaphor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Interaction_affects_Mental_Processes"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Interactive_Narrative_Designing_affects_Presentation"/>
+        <Class IRI="#Interactive_Narrative_Designing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Interactive_Narrative_Designing_affects_Protostory"/>
+        <Class IRI="#Interactive_Narrative_Designing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Meaning_Making_affects_Content"/>
+        <Class IRI="#Meaning_Making"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Mental_Processes_affects_Interaction"/>
+        <Class IRI="#Mental_Processes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Presentation_affects_Interactive_Narrative_Designing"/>
+        <Class IRI="#Presentation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Protostory_affects_Interactive_Narrative_Designing"/>
+        <Class IRI="#Protostory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Structure_affects_Motive"/>
+        <Class IRI="#Structure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Genre_affects_Content"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Intent_affects_System_Implementation"/>
+        <Class IRI="#System_Implementation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Interaction_Methaphor_affects_Interaction"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Interaction_affects_Mental_Processes"/>
+        <Class IRI="#Mental_Processes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Interactive_Narrative_Designing_affects_Presentation"/>
+        <Class IRI="#Presentation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Interactive_Narrative_Designing_affects_Protostory"/>
+        <Class IRI="#Protostory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Meaning_Making_affects_Content"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Mental_Processes_affects_Interaction"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Presentation_affects_Interactive_Narrative_Designing"/>
+        <Class IRI="#Interactive_Narrative_Designing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Protostory_affects_Interactive_Narrative_Designing"/>
+        <Class IRI="#Interactive_Narrative_Designing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Structure_affects_Motive"/>
+        <Class IRI="#Motive"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
